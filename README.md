@@ -1,5 +1,4 @@
 # Trading-with-deep-learning
 
-A naive attempt at understanding patterns in nifty 50 index through deep learning architectures. 
-
+We suggested a framework based on a convolutional neural network (CNN) paired with long-short term memory (LSTM) to predict the closing price of the Nifty 50 stock market index. A CNN-LSTM framework extracts features from a rich feature set and applies time series modeling with a look-up period of 20 trading days to predict the movement of the next day. Feature sets include raw price data of target index as well as foreign indices, technical indicators, currency exchange rates, commodities price data which are all chosen by similarities and well-known trade setups across the industry. The model is able to capture the information based on these features to predict the target variable i.e. closing price with a mean absolute percentage error of 2.54% across 10 years of data. The suggested framework shows a huge improvement on return than the traditional buy and hold method.
 Frameworks used: CNN, LSTM
